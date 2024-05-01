@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="formcontainer">
+    <div class="background">
+    <h1 class="heading">Create your Naukri profile</h1>
+    <p class="para1">Search & apply to jobs from India's No.1 Job Site</p>
+    <div>
+    <h1 class="heading1">Full name<span class="color1">*</span></h1>
+    <input type="text"  placeholder="What is your name?"/>
+    </div>
+    <div>
+    <h1 class="heading1">Email ID<span class="color1">*</span></h1>
+    <input type="text" placeholder="Tell us your Email ID"/>
+    </div>
+    <div>
+    <h1 class="heading1">Password<span class="color1">*</span></h1>
+    <input type="text" placeholder="(Minimum 6 characters)"/>
+    </div>
+    <div>
+    <h1 class="heading1">Mobile Number<span class="color1">*</span></h1>
+    <input type="text" placeholder="Enter your mobile number"/>
+    </div>
+    <p class="para2">By clicking Register, you agree to the Terms and Conditions & Privacy Policy of Naukri.com</p>
+    <button class="button1">Register Now</button>
+    </div>
+    </div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="formcontainer">
+        <div class="background">
+            <h1 class="heading">Create your Naukri profile</h1>
+            <p class="para1">Search & apply to jobs from India's No.1 Job Site</p>
+            <div>
+                <h1 class="heading1">Full name<span class="color1">*</span></h1>
+                <input id="fullName" type="text" placeholder="What is your name?" /><br/>
+                <span id="fullNameError" class="error"></span>
+            </div>
+            <div>
+                <h1 class="heading1">Email ID<span class="color1">*</span></h1>
+                <input id="email" type="text" placeholder="Tell us your Email ID" /><br/>
+                <span id="emailError" class="error"></span>
+            </div>
+            <div>
+                <h1 class="heading1">Password<span class="color1">*</span></h1>
+                <input id="password" type="password" placeholder="(Minimum 6 characters)" /><br/>
+                <span id="passwordError" class="error"></span>
+            </div>
+            <div>
+                <h1 class="heading1">Mobile Number<span class="color1">*</span></h1>
+                <input id="mobileNumber" type="text" placeholder="Enter your mobile number" /><br/>
+                <span id="mobileNumberError" class="error"></span>
+            </div>
+            <p class="para2">By clicking Register, you agree to the Terms and Conditions & Privacy Policy of Naukri.com</p>
+            <button class="button1" onclick="validateForm()">Register Now</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
